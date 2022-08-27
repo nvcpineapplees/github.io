@@ -8,19 +8,33 @@
     <style>
         html, body {
             height: 100%;
+
         }
 
         #header {
-            background-color: rgb(62, 199, 11);
+            background-color: teal;
             text-align: center;
-            border-bottom: solid 2px rgb(161, 73, 250);
+            border-bottom: solid 2px black;
         }
 
-        #info {
+        #main {
             height: 90%;
-            text-align: center;
-            background-color: rgb(247, 236, 9);
         }
+
+        #col-one {
+            max-height: 100%;
+            background-color: orange;
+        }
+
+        
+        #col-two {
+            max-height: 100%;
+        }
+
+        #col-three {
+            background-color: aquamarine;
+        }
+
 
     </style>
 
@@ -33,12 +47,10 @@
         </div>
     </div>
 
-    <div class="pure-g" id = "info">
-        <div class="pure-u-sm-6-24" id="col-one"></div>
-        <div class="pure-u-1 pure-u-sm-12-24" id="col-two">Every Monday evening 18:30 until 21:30 Amsterdam time (CET) we come together on zoom to practice 
-            Non violent communication.</div>
-        <div class="pure-u-sm-6-24" id="col-three"></div>
+    <div class="pure-g" id = "main">
+        <div class="pure-u-1 pure-u-sm-1-3 pure-u-xl-1-4" id="col-one">col one</div>
+        <div class="pure-u-1 pure-u-sm-2-3 pure-u-xl-1-2" id="col-two">col two</div>
+        <div class="pure-u-1 pure-u-xl-1-4" id="col-three">col three</div>
     </div>
-        
 </body>
 </html>

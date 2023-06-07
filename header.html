@@ -56,9 +56,27 @@
             width: 100%;
         }
 
+        .navbar {
+            height: 60px;
+        }
+
         .logo {
-            height: 70%;
+            height: 50%;
             width: auto;
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                height: 50px;
+            }
+
+            .logo {
+                height: 40%;
+            }
+
+            .navbar .nav-link {
+                font-size: 14px;
+            }
         }
 
     </style>

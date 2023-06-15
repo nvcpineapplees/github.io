@@ -1,0 +1,38 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800; /* ultra bold */
+    font-style: italic;
+    background-color: #D9A44B; /* A giraffe color theme */
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #774C27; /* Giraffe brown */
+}
+
+.dropdown-content {
+    display: none;
+    /* Other dropdown styling */
+}
+
+.content-section {
+    display: flex;
+    flex-direction: row;
+    /* Other section styling */
+}
+
+.content-section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* Responsive styling */
+
+@media (max-width: 768px) {
+    /* Tablet styles */
+}
+
+@media (max-width: 480px) {
+    /* Mobile styles */
+}

@@ -5,11 +5,18 @@ body {
     background-color: #D9A44B; /* A giraffe color theme */
 }
 
-#navbar {
+logo {
+    width: 100px;  /* or the width you prefer */
+    height: auto;  /* keep it proportional */
+}
+
+navbar {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: #774C27; /* Giraffe brown */
+    padding: 10px 0;
+    font-size: 14px;
 }
 
 .dropdown-content {
@@ -27,6 +34,8 @@ body {
     flex-direction: row-reverse;
 }
 
+
+
 /* Responsive styling */
 
 @media (max-width: 768px) {
@@ -35,4 +44,49 @@ body {
 
 @media (max-width: 480px) {
     /* Mobile styles */
+}
+
+/* Style for larger desktop screens */
+@media (min-width: 1200px) {
+    navbar {
+        padding: 15px 0;
+    }
+
+    navbar a {
+        font-size: 16px;
+    }
+
+    logo {
+        width: 150px;
+    }
+}
+
+/* Style for smaller desktops and tablets */
+@media (min-width: 768px) and (max-width: 1199px) {
+    navbar {
+        padding: 10px 0;
+    }
+
+    navbar a {
+        font-size: 14px;
+    }
+
+    logo {
+        width: 120px;
+    }
+}
+
+/* Style for mobile screens */
+@media (max-width: 767px) {
+    navbar {
+        padding: 5px 0;
+    }
+
+    navbar a {
+        font-size: 12px;
+    }
+
+    logo {
+        width: 90px;
+    }
 }

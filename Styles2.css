@@ -5,12 +5,12 @@ body {
     background-color: #D9A44B; /* A giraffe color theme */
 }
 
-logo {
+#logo {
     width: 100px;  /* or the width you prefer */
     height: auto;  /* keep it proportional */
 }
 
-navbar {
+#navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -48,45 +48,45 @@ navbar {
 
 /* Style for larger desktop screens */
 @media (min-width: 1200px) {
-    navbar {
+    #navbar {
         padding: 15px 0;
     }
 
-    navbar a {
+    #navbar a {
         font-size: 16px;
     }
 
-    logo {
+    #logo {
         width: 150px;
     }
 }
 
 /* Style for smaller desktops and tablets */
 @media (min-width: 768px) and (max-width: 1199px) {
-    navbar {
+    #navbar {
         padding: 10px 0;
     }
 
-    navbar a {
+    #navbar a {
         font-size: 14px;
     }
 
-    logo {
+    #logo {
         width: 120px;
     }
 }
 
 /* Style for mobile screens */
 @media (max-width: 767px) {
-    navbar {
+    #navbar {
         padding: 5px 0;
     }
 
-    navbar a {
+    #navbar a {
         font-size: 12px;
     }
 
-    logo {
+    #logo {
         width: 90px;
     }
 }
